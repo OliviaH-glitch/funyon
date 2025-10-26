@@ -2,11 +2,12 @@
 
     body {
         background-color:rgb(254, 205, 214);
-        color:rgb(167, 104, 113);
+        color:rgb(113, 65, 73);
     }
 
     marquee {
         background-color: rgb(255, 250, 254);
+        display:none;
     }
 
     #secOne, #secTwo, #sidebar {
@@ -18,8 +19,8 @@
     }
 
     #sidebar {
-        position:fixed;
-        right: 10px;
+        position:absolute;
+        right: 7px;
         top: 120px;
         width:35%;
     }
@@ -38,11 +39,12 @@
 
     body {
         background-color:rgb(203, 176, 238);
-        color:rgb(110, 76, 137);
+        color:rgb(60, 38, 78);
     }
 
     marquee {
         background-color: rgb(245, 239, 255);
+        display:block;
     }
 
     #secOne, #secTwo, #sidebar {
@@ -59,7 +61,7 @@
 
     body {
         background-color:rgb(176, 181, 238);
-        color:rgb(78, 76, 137);
+        color:rgb(38, 36, 70);
     }
 
     marquee {
