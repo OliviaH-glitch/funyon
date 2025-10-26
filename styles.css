@@ -1,0 +1,85 @@
+@media screen and (min-width: 576px) {
+
+    body {
+        background-color:rgb(254, 205, 214);
+        color:rgb(167, 104, 113);
+    }
+
+    marquee {
+        background-color: rgb(255, 250, 254);
+    }
+
+    #secOne, #secTwo, #sidebar {
+        background-color: rgb(255, 241, 252);
+        border:1px solid black;
+        padding:2px;
+        margin:5px;
+        width: 60%;
+    }
+
+    #sidebar {
+        position:fixed;
+        right: 10px;
+        top: 120px;
+        width:35%;
+    }
+
+    .info {
+        background-color: rgb(255, 250, 254);
+        margin: 3px;
+        padding:1px;
+        border: 1px solid rgb(89, 62, 66);;
+    }
+
+}
+
+
+@media screen and (min-width: 720px) {
+
+    body {
+        background-color:rgb(203, 176, 238);
+        color:rgb(110, 76, 137);
+    }
+
+    marquee {
+        background-color: rgb(245, 239, 255);
+    }
+
+    #secOne, #secTwo, #sidebar {
+        background-color: rgb(245, 239, 255);
+    }
+
+    .info {
+        background-color: rgb(254, 250, 255);
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    body {
+        background-color:rgb(176, 181, 238);
+        color:rgb(78, 76, 137);
+    }
+
+    marquee {
+        background-color: rgb(235, 232, 255);
+    }
+
+    #secOne, #secTwo, #sidebar {
+        background-color: rgb(235, 232, 255);
+        width: 80%;
+        margin:25px;
+    }
+
+    .info {
+        background-color: rgb(248, 247, 255);
+    }
+
+    #sidebar {
+        position:static;
+        bottom:10px;
+        width:auto;
+    }
+
+}
