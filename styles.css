@@ -10,7 +10,7 @@
         display:none;
     }
 
-    #secOne, #secTwo, #sidebar {
+    #secOne, #secTwo, #secThree, #sidebar {
         background-color: rgb(255, 241, 252);
         border:1px solid black;
         padding:2px;
@@ -32,6 +32,10 @@
         border: 1px solid rgb(89, 62, 66);;
     }
 
+    .topheading {
+        font-size: 30px;
+    }
+
 }
 
 
@@ -47,12 +51,25 @@
         display:block;
     }
 
-    #secOne, #secTwo, #sidebar {
+    #secOne, #secTwo, #secThree, #sidebar {
         background-color: rgb(245, 239, 255);
+    }
+
+    #secTwo, #secThree {
+        width:90%;
+    }
+
+    #sidebar {
+        right: 7px;
+        top: 125px;
     }
 
     .info {
         background-color: rgb(254, 250, 255);
+    }
+
+    .topheading {
+        font-size: 35px;
     }
 
 }
@@ -68,7 +85,7 @@
         background-color: rgb(235, 232, 255);
     }
 
-    #secOne, #secTwo, #sidebar {
+    #secOne, #secTwo, #secThree, #sidebar {
         background-color: rgb(235, 232, 255);
         width: 80%;
         margin:25px;
@@ -88,6 +105,10 @@
         position:static;
         bottom:10px;
         width:auto;
+    }
+
+    .topheading {
+        font-size: 40px;
     }
 
 }
